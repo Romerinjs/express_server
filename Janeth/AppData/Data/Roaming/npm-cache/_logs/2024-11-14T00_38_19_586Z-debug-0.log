@@ -1,0 +1,595 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Users\Janeth\AppData\Roaming\npm\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.8.3
+2 info using node@v20.17.0
+3 silly config load:file:C:\Users\Janeth\AppData\Roaming\npm\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\Janeth\Desktop\SOFTWARE DEV\SEMESTRE V\BACKEND\Lastcorte\express_server\.npmrc
+5 silly config load:file:C:\Users\Janeth\.npmrc
+6 silly config load:file:C:\Users\Janeth\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install
+8 verbose argv "install" "--legacy-peer-deps"
+9 verbose logfile logs-max:10 dir:C:\Users\Janeth\Desktop\SOFTWARE DEV\SEMESTRE V\BACKEND\Lastcorte\express_server\Janeth\AppData\Data\Roaming\npm-cache\_logs\2024-11-14T00_38_19_586Z-
+10 verbose logfile C:\Users\Janeth\Desktop\SOFTWARE DEV\SEMESTRE V\BACKEND\Lastcorte\express_server\Janeth\AppData\Data\Roaming\npm-cache\_logs\2024-11-14T00_38_19_586Z-debug-0.log
+11 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+12 silly logfile done cleaning log files
+13 silly idealTree buildDeps
+14 silly reify mark retired [
+14 silly reify   'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\@eslint\\config-array'
+14 silly reify ]
+15 silly reify mark retired [
+15 silly reify   'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\@eslint\\core'
+15 silly reify ]
+16 silly reify mark retired [
+16 silly reify   'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\@eslint\\object-schema'
+16 silly reify ]
+17 silly reify mark retired [
+17 silly reify   'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\@eslint\\plugin-kit'
+17 silly reify ]
+18 silly reify mark retired [
+18 silly reify   'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\@humanfs\\core'
+18 silly reify ]
+19 silly reify mark retired [
+19 silly reify   'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\@humanfs\\node'
+19 silly reify ]
+20 silly reify mark retired [
+20 silly reify   'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\@humanwhocodes\\module-importer'
+20 silly reify ]
+21 silly reify mark retired [
+21 silly reify   'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\@humanwhocodes\\retry'
+21 silly reify ]
+22 silly reify mark retired [
+22 silly reify   'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\@types\\estree'
+22 silly reify ]
+23 silly reify mark retired [
+23 silly reify   'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\@typescript-eslint\\type-utils\\node_modules\\@eslint\\eslintrc'
+23 silly reify ]
+24 silly reify mark retired [
+24 silly reify   'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\@typescript-eslint\\type-utils\\node_modules\\acorn',
+24 silly reify   'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\@typescript-eslint\\type-utils\\node_modules\\.bin\\acorn',
+24 silly reify   'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\@typescript-eslint\\type-utils\\node_modules\\.bin\\acorn.cmd',
+24 silly reify   'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\@typescript-eslint\\type-utils\\node_modules\\.bin\\acorn.ps1'
+24 silly reify ]
+25 silly reify mark retired [
+25 silly reify   'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\@typescript-eslint\\type-utils\\node_modules\\argparse'
+25 silly reify ]
+26 silly reify mark retired [
+26 silly reify   'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\@typescript-eslint\\type-utils\\node_modules\\eslint',
+26 silly reify   'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\@typescript-eslint\\type-utils\\node_modules\\.bin\\eslint',
+26 silly reify   'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\@typescript-eslint\\type-utils\\node_modules\\.bin\\eslint.cmd',
+26 silly reify   'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\@typescript-eslint\\type-utils\\node_modules\\.bin\\eslint.ps1'
+26 silly reify ]
+27 silly reify mark retired [
+27 silly reify   'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\@typescript-eslint\\type-utils\\node_modules\\eslint-scope'
+27 silly reify ]
+28 silly reify mark retired [
+28 silly reify   'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\@typescript-eslint\\type-utils\\node_modules\\espree'
+28 silly reify ]
+29 silly reify mark retired [
+29 silly reify   'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\@typescript-eslint\\type-utils\\node_modules\\estraverse'
+29 silly reify ]
+30 silly reify mark retired [
+30 silly reify   'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\@typescript-eslint\\type-utils\\node_modules\\file-entry-cache'
+30 silly reify ]
+31 silly reify mark retired [
+31 silly reify   'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\@typescript-eslint\\type-utils\\node_modules\\find-up'
+31 silly reify ]
+32 silly reify mark retired [
+32 silly reify   'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\@typescript-eslint\\type-utils\\node_modules\\flat-cache'
+32 silly reify ]
+33 silly reify mark retired [
+33 silly reify   'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\@typescript-eslint\\type-utils\\node_modules\\glob-parent'
+33 silly reify ]
+34 silly reify mark retired [
+34 silly reify   'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\@typescript-eslint\\type-utils\\node_modules\\globals'
+34 silly reify ]
+35 silly reify mark retired [
+35 silly reify   'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\@typescript-eslint\\type-utils\\node_modules\\js-yaml',
+35 silly reify   'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\@typescript-eslint\\type-utils\\node_modules\\.bin\\js-yaml',
+35 silly reify   'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\@typescript-eslint\\type-utils\\node_modules\\.bin\\js-yaml.cmd',
+35 silly reify   'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\@typescript-eslint\\type-utils\\node_modules\\.bin\\js-yaml.ps1'
+35 silly reify ]
+36 silly reify mark retired [
+36 silly reify   'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\@typescript-eslint\\type-utils\\node_modules\\locate-path'
+36 silly reify ]
+37 silly reify mark retired [
+37 silly reify   'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\@typescript-eslint\\type-utils\\node_modules\\p-limit'
+37 silly reify ]
+38 silly reify mark retired [
+38 silly reify   'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\@typescript-eslint\\type-utils\\node_modules\\p-locate'
+38 silly reify ]
+39 silly reify mark retired [
+39 silly reify   'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\@typescript-eslint\\type-utils\\node_modules\\path-exists'
+39 silly reify ]
+40 silly reify mark retired [
+40 silly reify   'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\typescript-eslint\\node_modules\\@eslint\\eslintrc'
+40 silly reify ]
+41 silly reify mark retired [
+41 silly reify   'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\typescript-eslint\\node_modules\\acorn',
+41 silly reify   'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\typescript-eslint\\node_modules\\.bin\\acorn',
+41 silly reify   'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\typescript-eslint\\node_modules\\.bin\\acorn.cmd',
+41 silly reify   'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\typescript-eslint\\node_modules\\.bin\\acorn.ps1'
+41 silly reify ]
+42 silly reify mark retired [
+42 silly reify   'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\typescript-eslint\\node_modules\\argparse'
+42 silly reify ]
+43 silly reify mark retired [
+43 silly reify   'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\typescript-eslint\\node_modules\\eslint',
+43 silly reify   'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\typescript-eslint\\node_modules\\.bin\\eslint',
+43 silly reify   'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\typescript-eslint\\node_modules\\.bin\\eslint.cmd',
+43 silly reify   'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\typescript-eslint\\node_modules\\.bin\\eslint.ps1'
+43 silly reify ]
+44 silly reify mark retired [
+44 silly reify   'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\typescript-eslint\\node_modules\\eslint-scope'
+44 silly reify ]
+45 silly reify mark retired [
+45 silly reify   'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\typescript-eslint\\node_modules\\espree'
+45 silly reify ]
+46 silly reify mark retired [
+46 silly reify   'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\typescript-eslint\\node_modules\\estraverse'
+46 silly reify ]
+47 silly reify mark retired [
+47 silly reify   'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\typescript-eslint\\node_modules\\file-entry-cache'
+47 silly reify ]
+48 silly reify mark retired [
+48 silly reify   'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\typescript-eslint\\node_modules\\find-up'
+48 silly reify ]
+49 silly reify mark retired [
+49 silly reify   'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\typescript-eslint\\node_modules\\flat-cache'
+49 silly reify ]
+50 silly reify mark retired [
+50 silly reify   'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\typescript-eslint\\node_modules\\glob-parent'
+50 silly reify ]
+51 silly reify mark retired [
+51 silly reify   'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\typescript-eslint\\node_modules\\globals'
+51 silly reify ]
+52 silly reify mark retired [
+52 silly reify   'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\typescript-eslint\\node_modules\\js-yaml',
+52 silly reify   'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\typescript-eslint\\node_modules\\.bin\\js-yaml',
+52 silly reify   'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\typescript-eslint\\node_modules\\.bin\\js-yaml.cmd',
+52 silly reify   'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\typescript-eslint\\node_modules\\.bin\\js-yaml.ps1'
+52 silly reify ]
+53 silly reify mark retired [
+53 silly reify   'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\typescript-eslint\\node_modules\\locate-path'
+53 silly reify ]
+54 silly reify mark retired [
+54 silly reify   'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\typescript-eslint\\node_modules\\p-limit'
+54 silly reify ]
+55 silly reify mark retired [
+55 silly reify   'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\typescript-eslint\\node_modules\\p-locate'
+55 silly reify ]
+56 silly reify mark retired [
+56 silly reify   'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\typescript-eslint\\node_modules\\path-exists'
+56 silly reify ]
+57 silly reify mark retired [
+57 silly reify   'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\yocto-queue'
+57 silly reify ]
+58 silly reify moves {
+58 silly reify   'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\@eslint\\config-array': 'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\@eslint\\.config-array-pTl0RPYK',
+58 silly reify   'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\@eslint\\core': 'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\@eslint\\.core-lnNmDgAS',
+58 silly reify   'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\@eslint\\object-schema': 'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\@eslint\\.object-schema-7eyvZks8',
+58 silly reify   'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\@eslint\\plugin-kit': 'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\@eslint\\.plugin-kit-nCLwpXPR',
+58 silly reify   'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\@humanfs\\core': 'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\@humanfs\\.core-zDOIecda',
+58 silly reify   'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\@humanfs\\node': 'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\@humanfs\\.node-N4p4R4f8',
+58 silly reify   'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\@humanwhocodes\\module-importer': 'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\@humanwhocodes\\.module-importer-9Q3LEIuP',
+58 silly reify   'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\@humanwhocodes\\retry': 'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\@humanwhocodes\\.retry-vqUkGLpX',
+58 silly reify   'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\@types\\estree': 'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\@types\\.estree-jeLeldn0',
+58 silly reify   'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\@typescript-eslint\\type-utils\\node_modules\\@eslint\\eslintrc': 'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\@typescript-eslint\\type-utils\\node_modules\\@eslint\\.eslintrc-PaUT3TP7',
+58 silly reify   'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\@typescript-eslint\\type-utils\\node_modules\\acorn': 'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\@typescript-eslint\\type-utils\\node_modules\\.acorn-sAepGHO9',
+58 silly reify   'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\@typescript-eslint\\type-utils\\node_modules\\.bin\\acorn': 'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\@typescript-eslint\\type-utils\\node_modules\\.bin\\.acorn-kaFQbNuy',
+58 silly reify   'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\@typescript-eslint\\type-utils\\node_modules\\.bin\\acorn.cmd': 'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\@typescript-eslint\\type-utils\\node_modules\\.bin\\.acorn.cmd-b2uRtibg',
+58 silly reify   'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\@typescript-eslint\\type-utils\\node_modules\\.bin\\acorn.ps1': 'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\@typescript-eslint\\type-utils\\node_modules\\.bin\\.acorn.ps1-qC2H1QrK',
+58 silly reify   'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\@typescript-eslint\\type-utils\\node_modules\\argparse': 'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\@typescript-eslint\\type-utils\\node_modules\\.argparse-NF3WPdQ2',
+58 silly reify   'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\@typescript-eslint\\type-utils\\node_modules\\eslint': 'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\@typescript-eslint\\type-utils\\node_modules\\.eslint-ZTbFZEtC',
+58 silly reify   'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\@typescript-eslint\\type-utils\\node_modules\\.bin\\eslint': 'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\@typescript-eslint\\type-utils\\node_modules\\.bin\\.eslint-gxM6DZFL',
+58 silly reify   'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\@typescript-eslint\\type-utils\\node_modules\\.bin\\eslint.cmd': 'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\@typescript-eslint\\type-utils\\node_modules\\.bin\\.eslint.cmd-5Wy8CLky',
+58 silly reify   'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\@typescript-eslint\\type-utils\\node_modules\\.bin\\eslint.ps1': 'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\@typescript-eslint\\type-utils\\node_modules\\.bin\\.eslint.ps1-a7OPSuRs',
+58 silly reify   'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\@typescript-eslint\\type-utils\\node_modules\\eslint-scope': 'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\@typescript-eslint\\type-utils\\node_modules\\.eslint-scope-U4tsMPjS',
+58 silly reify   'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\@typescript-eslint\\type-utils\\node_modules\\espree': 'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\@typescript-eslint\\type-utils\\node_modules\\.espree-uQK4Rv5H',
+58 silly reify   'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\@typescript-eslint\\type-utils\\node_modules\\estraverse': 'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\@typescript-eslint\\type-utils\\node_modules\\.estraverse-pyRhpt1h',
+58 silly reify   'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\@typescript-eslint\\type-utils\\node_modules\\file-entry-cache': 'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\@typescript-eslint\\type-utils\\node_modules\\.file-entry-cache-KoWhJ8Rg',
+58 silly reify   'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\@typescript-eslint\\type-utils\\node_modules\\find-up': 'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\@typescript-eslint\\type-utils\\node_modules\\.find-up-7Y4lGE9W',
+58 silly reify   'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\@typescript-eslint\\type-utils\\node_modules\\flat-cache': 'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\@typescript-eslint\\type-utils\\node_modules\\.flat-cache-KRA5sVyz',
+58 silly reify   'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\@typescript-eslint\\type-utils\\node_modules\\glob-parent': 'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\@typescript-eslint\\type-utils\\node_modules\\.glob-parent-gyWq3jes',
+58 silly reify   'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\@typescript-eslint\\type-utils\\node_modules\\globals': 'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\@typescript-eslint\\type-utils\\node_modules\\.globals-n7EqJ9vO',
+58 silly reify   'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\@typescript-eslint\\type-utils\\node_modules\\js-yaml': 'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\@typescript-eslint\\type-utils\\node_modules\\.js-yaml-OIRToOGW',
+58 silly reify   'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\@typescript-eslint\\type-utils\\node_modules\\.bin\\js-yaml': 'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\@typescript-eslint\\type-utils\\node_modules\\.bin\\.js-yaml-LzUdDVxI',
+58 silly reify   'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\@typescript-eslint\\type-utils\\node_modules\\.bin\\js-yaml.cmd': 'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\@typescript-eslint\\type-utils\\node_modules\\.bin\\.js-yaml.cmd-Yzzh2ko5',
+58 silly reify   'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\@typescript-eslint\\type-utils\\node_modules\\.bin\\js-yaml.ps1': 'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\@typescript-eslint\\type-utils\\node_modules\\.bin\\.js-yaml.ps1-kkVMVIuK',
+58 silly reify   'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\@typescript-eslint\\type-utils\\node_modules\\locate-path': 'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\@typescript-eslint\\type-utils\\node_modules\\.locate-path-e4qudvTg',
+58 silly reify   'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\@typescript-eslint\\type-utils\\node_modules\\p-limit': 'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\@typescript-eslint\\type-utils\\node_modules\\.p-limit-uvGpTtXZ',
+58 silly reify   'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\@typescript-eslint\\type-utils\\node_modules\\p-locate': 'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\@typescript-eslint\\type-utils\\node_modules\\.p-locate-zYIi542M',
+58 silly reify   'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\@typescript-eslint\\type-utils\\node_modules\\path-exists': 'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\@typescript-eslint\\type-utils\\node_modules\\.path-exists-ixe0DMuh',
+58 silly reify   'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\typescript-eslint\\node_modules\\@eslint\\eslintrc': 'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\typescript-eslint\\node_modules\\@eslint\\.eslintrc-dllP3DDM',
+58 silly reify   'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\typescript-eslint\\node_modules\\acorn': 'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\typescript-eslint\\node_modules\\.acorn-0nNb4MPr',
+58 silly reify   'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\typescript-eslint\\node_modules\\.bin\\acorn': 'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\typescript-eslint\\node_modules\\.bin\\.acorn-6YHBnvoq',
+58 silly reify   'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\typescript-eslint\\node_modules\\.bin\\acorn.cmd': 'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\typescript-eslint\\node_modules\\.bin\\.acorn.cmd-3QU2cFyV',
+58 silly reify   'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\typescript-eslint\\node_modules\\.bin\\acorn.ps1': 'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\typescript-eslint\\node_modules\\.bin\\.acorn.ps1-vOvsJZn7',
+58 silly reify   'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\typescript-eslint\\node_modules\\argparse': 'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\typescript-eslint\\node_modules\\.argparse-xmynNRjO',
+58 silly reify   'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\typescript-eslint\\node_modules\\eslint': 'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\typescript-eslint\\node_modules\\.eslint-WdMq6gY0',
+58 silly reify   'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\typescript-eslint\\node_modules\\.bin\\eslint': 'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\typescript-eslint\\node_modules\\.bin\\.eslint-11LaaG0E',
+58 silly reify   'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\typescript-eslint\\node_modules\\.bin\\eslint.cmd': 'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\typescript-eslint\\node_modules\\.bin\\.eslint.cmd-TTJfIL0E',
+58 silly reify   'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\typescript-eslint\\node_modules\\.bin\\eslint.ps1': 'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\typescript-eslint\\node_modules\\.bin\\.eslint.ps1-YwOWFHNT',
+58 silly reify   'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\typescript-eslint\\node_modules\\eslint-scope': 'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\typescript-eslint\\node_modules\\.eslint-scope-giu9nNPb',
+58 silly reify   'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\typescript-eslint\\node_modules\\espree': 'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\typescript-eslint\\node_modules\\.espree-UNjgiFMM',
+58 silly reify   'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\typescript-eslint\\node_modules\\estraverse': 'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\typescript-eslint\\node_modules\\.estraverse-XXiOruR1',
+58 silly reify   'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\typescript-eslint\\node_modules\\file-entry-cache': 'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\typescript-eslint\\node_modules\\.file-entry-cache-DALddCM9',
+58 silly reify   'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\typescript-eslint\\node_modules\\find-up': 'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\typescript-eslint\\node_modules\\.find-up-rBBThuk8',
+58 silly reify   'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\typescript-eslint\\node_modules\\flat-cache': 'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\typescript-eslint\\node_modules\\.flat-cache-NRg2Twwr',
+58 silly reify   'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\typescript-eslint\\node_modules\\glob-parent': 'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\typescript-eslint\\node_modules\\.glob-parent-sb8Jh9xR',
+58 silly reify   'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\typescript-eslint\\node_modules\\globals': 'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\typescript-eslint\\node_modules\\.globals-zge8l44y',
+58 silly reify   'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\typescript-eslint\\node_modules\\js-yaml': 'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\typescript-eslint\\node_modules\\.js-yaml-jDY7IfwO',
+58 silly reify   'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\typescript-eslint\\node_modules\\.bin\\js-yaml': 'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\typescript-eslint\\node_modules\\.bin\\.js-yaml-0C9AoAZX',
+58 silly reify   'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\typescript-eslint\\node_modules\\.bin\\js-yaml.cmd': 'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\typescript-eslint\\node_modules\\.bin\\.js-yaml.cmd-jLNOZc7m',
+58 silly reify   'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\typescript-eslint\\node_modules\\.bin\\js-yaml.ps1': 'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\typescript-eslint\\node_modules\\.bin\\.js-yaml.ps1-jbK8qTFJ',
+58 silly reify   'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\typescript-eslint\\node_modules\\locate-path': 'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\typescript-eslint\\node_modules\\.locate-path-GM21tMMC',
+58 silly reify   'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\typescript-eslint\\node_modules\\p-limit': 'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\typescript-eslint\\node_modules\\.p-limit-orGsgsj5',
+58 silly reify   'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\typescript-eslint\\node_modules\\p-locate': 'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\typescript-eslint\\node_modules\\.p-locate-TJMa4e5S',
+58 silly reify   'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\typescript-eslint\\node_modules\\path-exists': 'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\typescript-eslint\\node_modules\\.path-exists-3A3JdUs7',
+58 silly reify   'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\yocto-queue': 'C:\\Users\\Janeth\\Desktop\\SOFTWARE DEV\\SEMESTRE V\\BACKEND\\Lastcorte\\express_server\\node_modules\\.yocto-queue-6z9n2i9f'
+58 silly reify }
+59 silly audit bulk request {
+59 silly audit   '@babel/code-frame': [ '7.12.11' ],
+59 silly audit   '@babel/helper-validator-identifier': [ '7.25.9' ],
+59 silly audit   '@babel/highlight': [ '7.25.9' ],
+59 silly audit   'ansi-styles': [ '3.2.1', '4.3.0' ],
+59 silly audit   chalk: [ '2.4.2', '4.1.2' ],
+59 silly audit   'color-convert': [ '1.9.3', '2.0.1' ],
+59 silly audit   'color-name': [ '1.1.3', '1.1.4' ],
+59 silly audit   'escape-string-regexp': [ '1.0.5', '4.0.0' ],
+59 silly audit   'has-flag': [ '3.0.0', '4.0.0' ],
+59 silly audit   'supports-color': [ '5.5.0', '7.2.0' ],
+59 silly audit   '@eslint-community/eslint-utils': [ '4.4.0' ],
+59 silly audit   'eslint-visitor-keys': [ '3.4.3', '2.1.0', '1.3.0' ],
+59 silly audit   '@eslint-community/regexpp': [ '4.11.1' ],
+59 silly audit   '@eslint/eslintrc': [ '0.4.3' ],
+59 silly audit   globals: [ '13.24.0', '15.11.0' ],
+59 silly audit   ignore: [ '4.0.6', '5.3.2' ],
+59 silly audit   '@eslint/js': [ '9.13.0' ],
+59 silly audit   '@humanwhocodes/config-array': [ '0.5.0' ],
+59 silly audit   '@humanwhocodes/object-schema': [ '1.2.1' ],
+59 silly audit   '@nodelib/fs.scandir': [ '2.1.5' ],
+59 silly audit   '@nodelib/fs.stat': [ '2.0.5' ],
+59 silly audit   '@nodelib/fs.walk': [ '1.2.8' ],
+59 silly audit   '@types/body-parser': [ '1.19.5' ],
+59 silly audit   '@types/connect': [ '3.4.38' ],
+59 silly audit   '@types/express': [ '5.0.0' ],
+59 silly audit   '@types/express-serve-static-core': [ '5.0.1' ],
+59 silly audit   '@types/http-errors': [ '2.0.4' ],
+59 silly audit   '@types/json-schema': [ '7.0.15' ],
+59 silly audit   '@types/json5': [ '0.0.29' ],
+59 silly audit   '@types/mime': [ '1.3.5' ],
+59 silly audit   '@types/node': [ '22.9.0' ],
+59 silly audit   '@types/qs': [ '6.9.17' ],
+59 silly audit   '@types/range-parser': [ '1.2.7' ],
+59 silly audit   '@types/send': [ '0.17.4' ],
+59 silly audit   '@types/serve-static': [ '1.15.7' ],
+59 silly audit   '@typescript-eslint/eslint-plugin': [ '4.29.3', '8.11.0' ],
+59 silly audit   '@typescript-eslint/experimental-utils': [ '4.29.3' ],
+59 silly audit   '@typescript-eslint/parser': [ '4.29.3', '8.11.0' ],
+59 silly audit   '@typescript-eslint/scope-manager': [ '4.29.3', '8.11.0' ],
+59 silly audit   '@typescript-eslint/type-utils': [ '8.11.0' ],
+59 silly audit   '@typescript-eslint/types': [ '8.11.0', '4.29.3' ],
+59 silly audit   '@typescript-eslint/typescript-estree': [ '8.11.0', '4.29.3' ],
+59 silly audit   minimatch: [ '9.0.5', '3.1.2' ],
+59 silly audit   '@typescript-eslint/utils': [ '8.11.0' ],
+59 silly audit   '@typescript-eslint/visitor-keys': [ '8.11.0', '4.29.3' ],
+59 silly audit   acorn: [ '7.4.1' ],
+59 silly audit   argparse: [ '1.0.10' ],
+59 silly audit   'brace-expansion': [ '2.0.1', '1.1.11' ],
+59 silly audit   eslint: [ '7.32.0' ],
+59 silly audit   'eslint-scope': [ '5.1.1' ],
+59 silly audit   espree: [ '7.3.1' ],
+59 silly audit   estraverse: [ '5.3.0', '4.3.0' ],
+59 silly audit   'file-entry-cache': [ '6.0.1' ],
+59 silly audit   'find-up': [ '2.1.0' ],
+59 silly audit   'flat-cache': [ '3.2.0' ],
+59 silly audit   'glob-parent': [ '5.1.2' ],
+59 silly audit   'js-yaml': [ '3.14.1' ],
+59 silly audit   'locate-path': [ '2.0.0' ],
+59 silly audit   'p-limit': [ '1.3.0' ],
+59 silly audit   'p-locate': [ '2.0.0' ],
+59 silly audit   'path-exists': [ '3.0.0' ],
+59 silly audit   accepts: [ '1.3.8' ],
+59 silly audit   'acorn-jsx': [ '5.3.2' ],
+59 silly audit   ajv: [ '6.12.6', '8.17.1' ],
+59 silly audit   'ansi-colors': [ '4.1.3' ],
+59 silly audit   'ansi-regex': [ '5.0.1' ],
+59 silly audit   'array-buffer-byte-length': [ '1.0.1' ],
+59 silly audit   'array-flatten': [ '1.1.1' ],
+59 silly audit   'array-includes': [ '3.1.8' ],
+59 silly audit   'array-union': [ '2.1.0' ],
+59 silly audit   'array.prototype.flat': [ '1.3.2' ],
+59 silly audit   'arraybuffer.prototype.slice': [ '1.0.3' ],
+59 silly audit   'astral-regex': [ '2.0.0' ],
+59 silly audit   'available-typed-arrays': [ '1.0.7' ],
+59 silly audit   'balanced-match': [ '1.0.2' ],
+59 silly audit   'body-parser': [ '1.20.3' ],
+59 silly audit   debug: [ '2.6.9', '4.3.7', '3.2.7' ],
+59 silly audit   ms: [ '2.0.0', '2.1.3' ],
+59 silly audit   braces: [ '3.0.3' ],
+59 silly audit   bytes: [ '3.1.2' ],
+59 silly audit   'call-bind': [ '1.0.7' ],
+59 silly audit   callsites: [ '3.1.0' ],
+59 silly audit   'concat-map': [ '0.0.1' ],
+59 silly audit   'confusing-browser-globals': [ '1.0.11' ],
+59 silly audit   'content-disposition': [ '0.5.4' ],
+59 silly audit   'content-type': [ '1.0.5' ],
+59 silly audit   cookie: [ '0.7.1' ],
+59 silly audit   'cookie-signature': [ '1.0.6' ],
+59 silly audit   'cross-spawn': [ '7.0.3' ],
+59 silly audit   'data-view-buffer': [ '1.0.1' ],
+59 silly audit   'data-view-byte-length': [ '1.0.1' ],
+59 silly audit   'data-view-byte-offset': [ '1.0.0' ],
+59 silly audit   'deep-is': [ '0.1.4' ],
+59 silly audit   'define-data-property': [ '1.1.4' ],
+59 silly audit   'define-properties': [ '1.2.1' ],
+59 silly audit   depd: [ '2.0.0' ],
+59 silly audit   destroy: [ '1.2.0' ],
+59 silly audit   'dir-glob': [ '3.0.1' ],
+59 silly audit   doctrine: [ '3.0.0', '2.1.0' ],
+59 silly audit   'ee-first': [ '1.1.1' ],
+59 silly audit   'emoji-regex': [ '8.0.0' ],
+59 silly audit   encodeurl: [ '2.0.0', '1.0.2' ],
+59 silly audit   enquirer: [ '2.4.1' ],
+59 silly audit   'error-ex': [ '1.3.2' ],
+59 silly audit   'es-abstract': [ '1.23.3' ],
+59 silly audit   'es-define-property': [ '1.0.0' ],
+59 silly audit   'es-errors': [ '1.3.0' ],
+59 silly audit   'es-object-atoms': [ '1.0.0' ],
+59 silly audit   'es-set-tostringtag': [ '2.0.3' ],
+59 silly audit   'es-shim-unscopables': [ '1.0.2' ],
+59 silly audit   'es-to-primitive': [ '1.2.1' ],
+59 silly audit   'escape-html': [ '1.0.3' ],
+59 silly audit   'eslint-config-airbnb-base': [ '14.2.1' ],
+59 silly audit   'eslint-config-airbnb-typescript': [ '14.0.0' ],
+59 silly audit   'eslint-import-resolver-node': [ '0.3.9' ],
+59 silly audit   'eslint-module-utils': [ '2.12.0' ],
+59 silly audit   'eslint-plugin-import': [ '2.24.2' ],
+59 silly audit   'eslint-utils': [ '3.0.0', '2.1.0' ],
+59 silly audit   esprima: [ '4.0.1' ],
+59 silly audit   esquery: [ '1.6.0' ],
+59 silly audit   esrecurse: [ '4.3.0' ],
+59 silly audit   esutils: [ '2.0.3' ],
+59 silly audit   etag: [ '1.8.1' ],
+59 silly audit   express: [ '4.21.1' ],
+59 silly audit   'fast-deep-equal': [ '3.1.3' ],
+59 silly audit   'fast-glob': [ '3.3.2' ],
+59 silly audit   'fast-json-stable-stringify': [ '2.1.0' ],
+59 silly audit   'fast-levenshtein': [ '2.0.6' ],
+59 silly audit   'fast-uri': [ '3.0.3' ],
+59 silly audit   fastq: [ '1.17.1' ],
+59 silly audit   'fill-range': [ '7.1.1' ],
+59 silly audit   finalhandler: [ '1.3.1' ],
+59 silly audit   flatted: [ '3.3.1' ],
+59 silly audit   'for-each': [ '0.3.3' ],
+59 silly audit   forwarded: [ '0.2.0' ],
+59 silly audit   fresh: [ '0.5.2' ],
+59 silly audit   'fs.realpath': [ '1.0.0' ],
+59 silly audit   'function-bind': [ '1.1.2' ],
+59 silly audit   'function.prototype.name': [ '1.1.6' ],
+59 silly audit   'functional-red-black-tree': [ '1.0.1' ],
+59 silly audit   'functions-have-names': [ '1.2.3' ],
+59 silly audit   'get-intrinsic': [ '1.2.4' ],
+59 silly audit   'get-symbol-description': [ '1.0.2' ],
+59 silly audit   glob: [ '7.2.3' ],
+59 silly audit   globalthis: [ '1.0.4' ],
+59 silly audit   globby: [ '11.1.0' ],
+59 silly audit   gopd: [ '1.0.1' ],
+59 silly audit   'graceful-fs': [ '4.2.11' ],
+59 silly audit   graphemer: [ '1.4.0' ],
+59 silly audit   has: [ '1.0.4' ],
+59 silly audit   'has-bigints': [ '1.0.2' ],
+59 silly audit   'has-property-descriptors': [ '1.0.2' ],
+59 silly audit   'has-proto': [ '1.0.3' ],
+59 silly audit   'has-symbols': [ '1.0.3' ],
+59 silly audit   'has-tostringtag': [ '1.0.2' ],
+59 silly audit   hasown: [ '2.0.2' ],
+59 silly audit   'hosted-git-info': [ '2.8.9' ],
+59 silly audit   'http-errors': [ '2.0.0' ],
+59 silly audit   'iconv-lite': [ '0.4.24' ],
+59 silly audit   'import-fresh': [ '3.3.0' ],
+59 silly audit   imurmurhash: [ '0.1.4' ],
+59 silly audit   inflight: [ '1.0.6' ],
+59 silly audit   inherits: [ '2.0.4' ],
+59 silly audit   'internal-slot': [ '1.0.7' ],
+59 silly audit   'ipaddr.js': [ '1.9.1' ],
+59 silly audit   'is-array-buffer': [ '3.0.4' ],
+59 silly audit   'is-arrayish': [ '0.2.1' ],
+59 silly audit   'is-bigint': [ '1.0.4' ],
+59 silly audit   'is-boolean-object': [ '1.1.2' ],
+59 silly audit   'is-callable': [ '1.2.7' ],
+59 silly audit   'is-core-module': [ '2.15.1' ],
+59 silly audit   'is-data-view': [ '1.0.1' ],
+59 silly audit   'is-date-object': [ '1.0.5' ],
+59 silly audit   'is-extglob': [ '2.1.1' ],
+59 silly audit   'is-fullwidth-code-point': [ '3.0.0' ],
+59 silly audit   'is-glob': [ '4.0.3' ],
+59 silly audit   'is-negative-zero': [ '2.0.3' ],
+59 silly audit   'is-number': [ '7.0.0' ],
+59 silly audit   'is-number-object': [ '1.0.7' ],
+59 silly audit   'is-regex': [ '1.1.4' ],
+59 silly audit   'is-shared-array-buffer': [ '1.0.3' ],
+59 silly audit   'is-string': [ '1.0.7' ],
+59 silly audit   'is-symbol': [ '1.0.4' ],
+59 silly audit   'is-typed-array': [ '1.1.13' ],
+59 silly audit   'is-weakref': [ '1.0.2' ],
+59 silly audit   isarray: [ '2.0.5' ],
+59 silly audit   isexe: [ '2.0.0' ],
+59 silly audit   'js-tokens': [ '4.0.0' ],
+59 silly audit   'json-buffer': [ '3.0.1' ],
+59 silly audit   'json-parse-better-errors': [ '1.0.2' ],
+59 silly audit   'json-schema-traverse': [ '0.4.1', '1.0.0' ],
+59 silly audit   'json-stable-stringify-without-jsonify': [ '1.0.1' ],
+59 silly audit   json5: [ '1.0.2' ],
+59 silly audit   keyv: [ '4.5.4' ],
+59 silly audit   levn: [ '0.4.1' ],
+59 silly audit   'load-json-file': [ '4.0.0' ],
+59 silly audit   'lodash.merge': [ '4.6.2' ],
+59 silly audit   'lodash.truncate': [ '4.4.2' ],
+59 silly audit   'media-typer': [ '0.3.0' ],
+59 silly audit   'merge-descriptors': [ '1.0.3' ],
+59 silly audit   merge2: [ '1.4.1' ],
+59 silly audit   methods: [ '1.1.2' ],
+59 silly audit   micromatch: [ '4.0.8' ],
+59 silly audit   mime: [ '1.6.0' ],
+59 silly audit   'mime-db': [ '1.52.0' ],
+59 silly audit   'mime-types': [ '2.1.35' ],
+59 silly audit   minimist: [ '1.2.8' ],
+59 silly audit   'natural-compare': [ '1.4.0' ],
+59 silly audit   negotiator: [ '0.6.3' ],
+59 silly audit   'normalize-package-data': [ '2.5.0' ],
+59 silly audit   semver: [ '5.7.2', '7.6.3' ],
+59 silly audit   'object-inspect': [ '1.13.2' ],
+59 silly audit   'object-keys': [ '1.1.1' ],
+59 silly audit   'object.assign': [ '4.1.5' ],
+59 silly audit   'object.entries': [ '1.1.8' ],
+59 silly audit   'object.values': [ '1.2.0' ],
+59 silly audit   'on-finished': [ '2.4.1' ],
+59 silly audit   once: [ '1.4.0' ],
+59 silly audit   optionator: [ '0.9.4' ],
+59 silly audit   'p-try': [ '1.0.0' ],
+59 silly audit   'parent-module': [ '1.0.1' ],
+59 silly audit   'parse-json': [ '4.0.0' ],
+59 silly audit   parseurl: [ '1.3.3' ],
+59 silly audit   'path-is-absolute': [ '1.0.1' ],
+59 silly audit   'path-key': [ '3.1.1' ],
+59 silly audit   'path-parse': [ '1.0.7' ],
+59 silly audit   'path-to-regexp': [ '0.1.10' ],
+59 silly audit   'path-type': [ '4.0.0', '3.0.0' ],
+59 silly audit   picocolors: [ '1.1.1' ],
+59 silly audit   picomatch: [ '2.3.1' ],
+59 silly audit   pify: [ '3.0.0' ],
+59 silly audit   'pkg-up': [ '2.0.0' ],
+59 silly audit   'possible-typed-array-names': [ '1.0.0' ],
+59 silly audit   'prelude-ls': [ '1.2.1' ],
+59 silly audit   progress: [ '2.0.3' ],
+59 silly audit   'proxy-addr': [ '2.0.7' ],
+59 silly audit   punycode: [ '2.3.1' ],
+59 silly audit   qs: [ '6.13.0' ],
+59 silly audit   'queue-microtask': [ '1.2.3' ],
+59 silly audit   'range-parser': [ '1.2.1' ],
+59 silly audit   'raw-body': [ '2.5.2' ],
+59 silly audit   'read-pkg': [ '3.0.0' ],
+59 silly audit   'read-pkg-up': [ '3.0.0' ],
+59 silly audit   'regexp.prototype.flags': [ '1.5.3' ],
+59 silly audit   regexpp: [ '3.2.0' ],
+59 silly audit   'require-from-string': [ '2.0.2' ],
+59 silly audit   resolve: [ '1.22.8' ],
+59 silly audit   'resolve-from': [ '4.0.0' ],
+59 silly audit   reusify: [ '1.0.4' ],
+59 silly audit   rimraf: [ '3.0.2' ],
+59 silly audit   'run-parallel': [ '1.2.0' ],
+59 silly audit   'safe-array-concat': [ '1.1.2' ],
+59 silly audit   'safe-buffer': [ '5.2.1' ],
+59 silly audit   'safe-regex-test': [ '1.0.3' ],
+59 silly audit   'safer-buffer': [ '2.1.2' ],
+59 silly audit   send: [ '0.19.0' ],
+59 silly audit   'serve-static': [ '1.16.2' ],
+59 silly audit   'set-function-length': [ '1.2.2' ],
+59 silly audit   'set-function-name': [ '2.0.2' ],
+59 silly audit   setprototypeof: [ '1.2.0' ],
+59 silly audit   'shebang-command': [ '2.0.0' ],
+59 silly audit   'shebang-regex': [ '3.0.0' ],
+59 silly audit   'side-channel': [ '1.0.6' ],
+59 silly audit   slash: [ '3.0.0' ],
+59 silly audit   'slice-ansi': [ '4.0.0' ],
+59 silly audit   'spdx-correct': [ '3.2.0' ],
+59 silly audit   'spdx-exceptions': [ '2.5.0' ],
+59 silly audit   'spdx-expression-parse': [ '3.0.1' ],
+59 silly audit   'spdx-license-ids': [ '3.0.20' ],
+59 silly audit   'sprintf-js': [ '1.0.3' ],
+59 silly audit   statuses: [ '2.0.1' ],
+59 silly audit   'string-width': [ '4.2.3' ],
+59 silly audit   'string.prototype.trim': [ '1.2.9' ],
+59 silly audit   'string.prototype.trimend': [ '1.0.8' ],
+59 silly audit   'string.prototype.trimstart': [ '1.0.8' ],
+59 silly audit   'strip-ansi': [ '6.0.1' ],
+59 silly audit   'strip-bom': [ '3.0.0' ],
+59 silly audit   'strip-json-comments': [ '3.1.1' ],
+59 silly audit   'supports-preserve-symlinks-flag': [ '1.0.0' ],
+59 silly audit   table: [ '6.8.2' ],
+59 silly audit   'text-table': [ '0.2.0' ],
+59 silly audit   'to-regex-range': [ '5.0.1' ],
+59 silly audit   toidentifier: [ '1.0.1' ],
+59 silly audit   'ts-api-utils': [ '1.3.0' ],
+59 silly audit   'tsconfig-paths': [ '3.15.0' ],
+59 silly audit   tslib: [ '1.14.1' ],
+59 silly audit   tsutils: [ '3.21.0' ],
+59 silly audit   'type-check': [ '0.4.0' ],
+59 silly audit   'type-fest': [ '0.20.2' ],
+59 silly audit   'type-is': [ '1.6.18' ],
+59 silly audit   'typed-array-buffer': [ '1.0.2' ],
+59 silly audit   'typed-array-byte-length': [ '1.0.1' ],
+59 silly audit   'typed-array-byte-offset': [ '1.0.2' ],
+59 silly audit   'typed-array-length': [ '1.0.6' ],
+59 silly audit   typescript: [ '5.6.3' ],
+59 silly audit   'typescript-eslint': [ '8.11.0' ],
+59 silly audit   'unbox-primitive': [ '1.0.2' ],
+59 silly audit   'undici-types': [ '6.19.8' ],
+59 silly audit   unpipe: [ '1.0.0' ],
+59 silly audit   'uri-js': [ '4.4.1' ],
+59 silly audit   'utils-merge': [ '1.0.1' ],
+59 silly audit   'v8-compile-cache': [ '2.4.0' ],
+59 silly audit   'validate-npm-package-license': [ '3.0.4' ],
+59 silly audit   vary: [ '1.1.2' ],
+59 silly audit   which: [ '2.0.2' ],
+59 silly audit   'which-boxed-primitive': [ '1.0.2' ],
+59 silly audit   'which-typed-array': [ '1.1.15' ],
+59 silly audit   'word-wrap': [ '1.2.5' ],
+59 silly audit   wrappy: [ '1.0.2' ]
+59 silly audit }
+60 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 706ms
+61 silly audit report {}
+62 silly REMOVE node_modules/yocto-queue
+63 silly REMOVE node_modules/typescript-eslint/node_modules/path-exists
+64 silly REMOVE node_modules/typescript-eslint/node_modules/p-locate
+65 silly REMOVE node_modules/typescript-eslint/node_modules/p-limit
+66 silly REMOVE node_modules/typescript-eslint/node_modules/locate-path
+67 silly REMOVE node_modules/typescript-eslint/node_modules/js-yaml
+68 silly REMOVE node_modules/typescript-eslint/node_modules/globals
+69 silly REMOVE node_modules/typescript-eslint/node_modules/glob-parent
+70 silly REMOVE node_modules/typescript-eslint/node_modules/flat-cache
+71 silly REMOVE node_modules/typescript-eslint/node_modules/find-up
+72 silly REMOVE node_modules/typescript-eslint/node_modules/file-entry-cache
+73 silly REMOVE node_modules/typescript-eslint/node_modules/estraverse
+74 silly REMOVE node_modules/typescript-eslint/node_modules/espree
+75 silly REMOVE node_modules/typescript-eslint/node_modules/espree/node_modules/eslint-visitor-keys
+76 silly REMOVE node_modules/typescript-eslint/node_modules/eslint-scope
+77 silly REMOVE node_modules/typescript-eslint/node_modules/eslint
+78 silly REMOVE node_modules/typescript-eslint/node_modules/eslint/node_modules/eslint-visitor-keys
+79 silly REMOVE node_modules/typescript-eslint/node_modules/argparse
+80 silly REMOVE node_modules/typescript-eslint/node_modules/acorn
+81 silly REMOVE node_modules/typescript-eslint/node_modules/@eslint/eslintrc
+82 silly REMOVE node_modules/@typescript-eslint/type-utils/node_modules/path-exists
+83 silly REMOVE node_modules/@typescript-eslint/type-utils/node_modules/p-locate
+84 silly REMOVE node_modules/@typescript-eslint/type-utils/node_modules/p-limit
+85 silly REMOVE node_modules/@typescript-eslint/type-utils/node_modules/locate-path
+86 silly REMOVE node_modules/@typescript-eslint/type-utils/node_modules/js-yaml
+87 silly REMOVE node_modules/@typescript-eslint/type-utils/node_modules/globals
+88 silly REMOVE node_modules/@typescript-eslint/type-utils/node_modules/glob-parent
+89 silly REMOVE node_modules/@typescript-eslint/type-utils/node_modules/flat-cache
+90 silly REMOVE node_modules/@typescript-eslint/type-utils/node_modules/find-up
+91 silly REMOVE node_modules/@typescript-eslint/type-utils/node_modules/file-entry-cache
+92 silly REMOVE node_modules/@typescript-eslint/type-utils/node_modules/estraverse
+93 silly REMOVE node_modules/@typescript-eslint/type-utils/node_modules/espree
+94 silly REMOVE node_modules/@typescript-eslint/type-utils/node_modules/espree/node_modules/eslint-visitor-keys
+95 silly REMOVE node_modules/@typescript-eslint/type-utils/node_modules/eslint-scope
+96 silly REMOVE node_modules/@typescript-eslint/type-utils/node_modules/eslint
+97 silly REMOVE node_modules/@typescript-eslint/type-utils/node_modules/eslint/node_modules/eslint-visitor-keys
+98 silly REMOVE node_modules/@typescript-eslint/type-utils/node_modules/argparse
+99 silly REMOVE node_modules/@typescript-eslint/type-utils/node_modules/acorn
+100 silly REMOVE node_modules/@typescript-eslint/type-utils/node_modules/@eslint/eslintrc
+101 silly REMOVE node_modules/@types/estree
+102 silly REMOVE node_modules/@humanwhocodes/retry
+103 silly REMOVE node_modules/@humanwhocodes/module-importer
+104 silly REMOVE node_modules/@humanfs/node
+105 silly REMOVE node_modules/@humanfs/core
+106 silly REMOVE node_modules/@eslint/plugin-kit
+107 silly REMOVE node_modules/@eslint/object-schema
+108 silly REMOVE node_modules/@eslint/core
+109 silly REMOVE node_modules/@eslint/config-array
+110 verbose cwd C:\Users\Janeth\Desktop\SOFTWARE DEV\SEMESTRE V\BACKEND\Lastcorte\express_server
+111 verbose os Windows_NT 10.0.19045
+112 verbose node v20.17.0
+113 verbose npm  v10.8.3
+114 verbose exit 0
+115 info ok
